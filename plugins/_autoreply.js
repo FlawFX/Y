@@ -49,13 +49,13 @@ let fs = require('fs')
          await this.sendButton(m.chat, !(m.isGroup || m.isPrems) && group ? 'hanya grup' : isBanned ? 'chat banned' : banned ? 'user banned' : 'aktif', wm, !(m.isGroup || m.isPrems) && group ? 'donasi' : isBanned ? 'unban' : banned ? 'minta owner kalo mau di unban' : 'donasi', !(m.isGroup || m.isPrems) && group ? '.donasi' : isBanned ? '.unban' : banned ? '.owner' : '.donasi', m) 
      } 
       
-     if (/@62895604670507$/i.test(m.text)) { 
+     if (/@6281251549899$/i.test(m.text)) { 
          await this.sendButtonDoc(m.chat, !(m.isGroup || m.isPrems) && group ? 'hanya grup' : isBanned ? 'chat banned' : banned ? 'user banned' : 'Ngapain Tag Owner Saya?', wm, !(m.isGroup || m.isPrems) && group ? 'donasi' : isBanned ? 'unban' : banned ? 'minta owner kalo mau di unban' : 'donasi', !(m.isGroup || m.isPrems) && group ? '.donasi' : isBanned ? '.unban' : banned ? '.owner' : '.donasi',  m, { 
      quoted: m, 
      contextInfo: { forwardingScore: 99999, isForwarded: true, 
          externalAdReply: { 
-                 sourceUrl: 'https://youtu.be/RlhkqeUDZrA/', 
-             title: 'Claraa San UwU', 
+                 sourceUrl: 'https://youtu.be/Uc6-ReBLX9k', 
+             title: 'Dani San UwU', 
              body: '', 
            thumbnail: await (await fetch('https://telegra.ph/file/de1678007a368fe66c052.jpg')).buffer() 
          } 
@@ -74,8 +74,8 @@ let fs = require('fs')
     const ojam = Math.floor( Kurang % (1000 * 60 * 60 * 24) / (1000 * 60 * 60))
     const onet = Math.floor( Kurang % (1000 * 60 * 60) / (1000 * 60))
     const detek = Math.floor( Kurang % (1000 * 60) / 1000)
-        await this.setBio(`🎂️ Ultah Clara UwU : ${ohari} Hari ${ojam} Jam ${onet} Menit ${detek} Detik
-⏲️ Runtime: ${uptime} | 🛰 Mode: ${global.opts['self'] ? 'Private' : setting.groupOnly ? 'Only Group' : 'Public'} | 💌 Made Claraa UwU`).catch(_ => _)  
+        await this.setBio(`🎂️ Ultah Dani UwU : ${ohari} Hari ${ojam} Jam ${onet} Menit ${detek} Detik
+⏲️ Runtime: ${uptime} | 🛰 Mode: ${global.opts['self'] ? 'Private' : setting.groupOnly ? 'Only Group' : 'Public'} | 💌 Made Dani UwU`).catch(_ => _)  
           setting.status = new Date() * 1  
       } 
   
