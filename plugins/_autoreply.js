@@ -54,7 +54,7 @@ let fs = require('fs')
      quoted: m, 
      contextInfo: { forwardingScore: 99999, isForwarded: true, 
          externalAdReply: { 
-                 sourceUrl: 'https://youtu.be/Uc6-ReBLX9k', 
+                 sourceUrl: 'https://chat.whatsapp.com/KNkpoT4oX5yFA18GlPttgl', 
              title: '© 𝒁𝒆𝒏𝒏𝑺𝒌𝒚-𝑩𝒐𝒕𝒛', 
              body: '', 
            thumbnail: await (await fetch('https://telegra.ph/file/de1678007a368fe66c052.jpg')).buffer() 
