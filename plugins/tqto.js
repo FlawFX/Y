@@ -16,7 +16,7 @@ Terimakasih Juga Untuk Kang Banned:
 ──────────────────────
 • God
 • My ortu
-• Dani Official ( Me )
+• FlawZX ( me )
 • Claraa 
 • Nurutomo
 • Adiwajshing
