@@ -14,7 +14,7 @@ let handler = async (m, { conn, text }) => {
     status: 404,
     surface : 404,
     message: `© CUTE BROADCAST\nFrom ${conn.getName(m.sender)} 🌠`, 
-    orderTitle: `▮By Zivfurr ▸`,
+    orderTitle: `▮By FlawZX ▸`,
     thumbnail: await (await fetch('https://telegra.ph/file/d22003d24ff779724cc58.jpg')).buffer(),
     }
     }
@@ -43,7 +43,7 @@ ptt: true, contextInfo: { forwardingScore: 999, isForwarded: true,
       } 
    })
 }
-    m.reply('_*Broadcast Finished*_')
+    m.reply('_*Broadcast Selesai*_')
 }
 handler.help = ['bcavn'].map(v => v + ' <teks>')
 handler.tags = ['owner']
