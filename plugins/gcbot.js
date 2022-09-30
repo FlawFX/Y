@@ -32,11 +32,11 @@ let fetch = require('node-fetch')
          }}) 
      } catch (e) { 
          let tulisan = ` 
- *Dani Bot!* 
+ *ZennSky-Botz!* 
 Sekedar meramaikan, atau juga jika ada informasi mengenai bot. 
   
  *Group 1* 
-https://chat.whatsapp.com/KiKVjpgL4EH6i0kMUtlEJz
+https://chat.whatsapp.com/KNkpoT4oX5yFA18GlPttgl
  
  `.trim() 
      await conn.sendButtonDoc(m.chat, tulisan.trim(), 'Harap patuhi rules dan peraturan pada masing masing group ya! Terimakasih.', 'Rules', '.rules', m, {
