@@ -8,7 +8,7 @@ let levelling = require('../lib/levelling')
 let handler = async (m, { conn, usedPrefix: _p, args, command }) => { 
 	let hao = ` 
  *Official Bot By @${'0'.split('@')[0]}* 
- *Powered By @${'6281251549899'.split('@')[0]}*` 
+ *Powered By @${'6289510598381'.split('@')[0]}*` 
   let package = JSON.parse(await fs.promises.readFile(path.join(__dirname, '../package.json')).catch(_ => '{}'))
     let { exp, limit, age, money, level, role, registered } = global.db.data.users[m.sender]
     let { min, xp, max } = levelling.xpRange(level, global.multiplier)
@@ -97,8 +97,8 @@ const fkgif = {
                 },
 	 message: { 
 		"extendedTextMessage": {
-                 "text":`DaniBotz MD 🌱 ┊ 𝗥𝗣𝗚 Whatsapp ʙᴏᴛ`,
-                 "title": `DaniBotz MD 🌱 ┊ 𝗥𝗣𝗚 Whatsapp ʙᴏᴛ`,
+                 "text": `𝒁𝒆𝒏𝒏𝑺𝒌𝒚-𝑩𝒐𝒕𝒛 🌱 ┊ 𝗥𝗣𝗚 Whatsapp ʙᴏᴛ`,
+                 "title": `𝒁𝒆𝒏𝒏𝑺𝒌𝒚-𝑩𝒐𝒕𝒛 🌱 ┊ 𝗥𝗣𝗚 Whatsapp ʙᴏᴛ`,
                  'jpegThumbnail': await (await fetch('https://telegra.ph/file/6f11ac2de8d57a1c831c4.jpg')).buffer()
                         }
 	                  } 
@@ -108,10 +108,10 @@ const fkgif = {
 
 ●────━───༺༻───━────●
                 *《 BOT INFO 》*
-⚘ *Bot Name: DaniBotz-MD*
-⚘ *Creator: Danii Chan*
+⚘ *Bot Name: 𝒁𝒆𝒏𝒏𝑺𝒌𝒚-𝑩𝒐𝒕𝒛*
+⚘ *Creator: FlawzX*
 ⚘ *Contact Owner Bot*
-*http://wa.me/6281251549899*
+*http://wa.me/6289510598381*
 ⚘ *Tanggal: ${date}*  
 ⚘ *Jam: ${time} WIB*
 ⚘ *Status: 「 ${mode} 」*
@@ -150,7 +150,7 @@ _*${ohari} Hari ${ojam} Jam ${onet} Menit ${detek} Detik*_
 let ftt = `*Note:* Jika menemukan bug, error atau kesulitan dalam penggunaan silahkan laporkan/tanyakan kepada Owner
 
  *Official Bot By @${'0'.split('@')[0]}* 
- *Powered By @${'6281251549899'.split('@')[0]}*`
+ *Powered By @${'6289510598381'.split('@')[0]}*`
        let judul = `${ucapanl()}`.trim() 
        const sections = [
                               {
@@ -160,11 +160,11 @@ let ftt = `*Note:* Jika menemukan bug, error atau kesulitan dalam penggunaan sil
                                          "rowId": ".botstat"
                                     }, {
                                          "title": "⚡› Speed ",
-                                         "description": "Menampilkan Kecepatan Respon カ DaniBotz-MD",
+                                         "description": "Menampilkan Kecepatan Respon カ 𝒁𝒆𝒏𝒏𝑺𝒌𝒚-𝑩𝒐𝒕𝒛",
                                          "rowId": ".ping"
                                     }, {
                                          "title": "🗒️› Info ",
-                                         "description": "Menampilkan Info カ DaniBotz-MD",
+                                         "description": "Menampilkan Info カ 𝒁𝒆𝒏𝒏𝑺𝒌𝒚-𝑩𝒐𝒕𝒛",
                                          "rowId": ".info"
                                     }, {
                                          "title": "🎐 › Developer Bot ",
@@ -318,13 +318,13 @@ let ftt = `*Note:* Jika menemukan bug, error atau kesulitan dalam penggunaan sil
                                 }, {
                                 "rows": [{                                	
                                 "title": "📝 ∫  Catatan Perubahan ",
-                                "description": "Last Update Terakhir Di DaniBotz-MD",
+                                "description": "Last Update Terakhir Di 𝒁𝒆𝒏𝒏𝑺𝒌𝒚-𝑩𝒐𝒕𝒛",
                                 "rowId": ".notes"                  
                 }],                
                                 "title": "▮Last Update 」"
                                 }, {
                                 "rows": [{                                	
-                  "title": "「 🗨️ 」› Dani Chat ",
+                  "title": "「 🗨️ 」› ZennSky-Chat ",
                   "description": "Mengobrol Dengan Orang Lain",
                   "rowId": ". start"
                 }],
