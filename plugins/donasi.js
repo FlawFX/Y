@@ -1,6 +1,6 @@
 let handler = async (m, { conn, usedPrefix }) => conn.sendButton(m.chat, `
 ╭─「 Donasi • Dana 」
-│ • Telkom [089510598381]
+│ • Tree [089510598381]
 │ • Gopay  [089510598381]
 │ • Dana  [089510598381]
 ╰────
