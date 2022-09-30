@@ -156,7 +156,7 @@ let ftt = `*Note:* Jika menemukan bug, error atau kesulitan dalam penggunaan sil
                               {
                                 "rows": [{
                                          "title": "📊 › Status ",
-                                         "description": "Status カ DaniBotz-MD",
+                                         "description": "Status カ 𝒁𝒆𝒏𝒏𝑺𝒌𝒚-𝑩𝒐𝒕𝒛",
                                          "rowId": ".botstat"
                                     }, {
                                          "title": "⚡› Speed ",
